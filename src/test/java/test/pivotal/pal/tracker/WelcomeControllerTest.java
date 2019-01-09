@@ -13,4 +13,8 @@ public class WelcomeControllerTest {
 
         assertThat(controller.sayHello()).isEqualTo("A welcome message");
     }
+
+    @Test
+    public void sayHello() {
+    }
 }
