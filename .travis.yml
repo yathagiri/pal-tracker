@@ -10,6 +10,7 @@ if: tag IS blank
 jobs:
   include:
     - stage: build and publish
+      if: branch = master
       language: java
       jdk: oraclejdk8
       install: skip
